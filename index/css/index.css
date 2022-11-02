@@ -383,6 +383,7 @@ article>h3{
     width: 220px;
     height: 240px;
     float: left;
+    
 }
 .shoppers_box_item>a{
     text-decoration: none;
@@ -394,6 +395,9 @@ article>h3{
     width: 220px;
     height: 225px;
     border: 1px solid #E5E9E9;
+    border-radius: 5px;
+    overflow: hidden;
+    
 }
 .shoppers_box_item:nth-of-type(2),
 .shoppers_box_item:nth-of-type(3),
@@ -457,6 +461,24 @@ article>h3{
     margin-left: 8px;
     background: url(../../public/img/reply.png) no-repeat 0px 4px;
 
+}
+.shoppers_item2{
+    width: 200px;
+    height: 4px;
+    border-left: 1px solid #E5E9E9;
+    border-right:1px solid #E5E9E9 ;
+    border-bottom: 1px solid #E5E9E9;
+    margin-left:10px;
+    border-radius: 0 0 5px 5px;
+}
+.shoppers_item3{
+    width: 180px;
+    height: 4px;
+    border-left: 1px solid #E5E9E9;
+    border-right:1px solid #E5E9E9 ;
+    border-bottom: 1px solid #E5E9E9;
+    margin-left:20px;
+    border-radius: 0 0 5px 5px;
 }
 /* 发现酷玩 */
 main{
