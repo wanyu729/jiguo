@@ -78,3 +78,20 @@ function move(){
     },2500)
 }
 move();
+// like words
+var like1=document.getElementsByClassName('report_a_box_sp1');
+var words1=document.getElementsByClassName('report_a_box_sp2');
+for (var i=0;i<like1.length;i++){
+    var like1a=document.getElementsByClassName('report_a_box_sp1')[i].firstChild.nodeValue-0;
+    var words1a=document.getElementsByClassName('report_a_box_sp2')[i].firstChild.nodeValue-0;
+    like1[i].onclick=function(){
+        like1a ++;
+        this.innerHTML=like1a;
+    }
+    words1[i].onclick=function(){
+        words1a ++;
+        this.innerHTML=words1a;
+    }
+}
+// 发现酷玩
+
