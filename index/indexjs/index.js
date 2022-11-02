@@ -94,4 +94,39 @@ for (var i=0;i<like1.length;i++){
     }
 }
 // 发现酷玩
+    //1、设置存放数据的数组
+var dataList=[];
+    //2、ajax请求 请求后将数据放入数组dataList
+function getData(){
+    var ajax=new XMLHttpRequest()||new ActiveXObject('Microsoft.XMLHTTP');
+    ajax.open('get','../../jiguo_server/public/data/play_new.json');
+    ajax.send();
+    ajax.onreadystatechange=function(){
+        if(ajax.readyState==4){
+            if(ajax.status==200){
+                data=ajax.responseText;
+                dataList=JSON.parse(data);
+                show();
+            }else{
+                console.log('加载错误');
+            }  
+        }
+    }
+}
+
+    // 渲染数据
+var index=-1;
+var main_box=document.getElementsByClassName('main_box')[0];
+    // 开关
+var flg=true;
+    // 3、调用展示数据的方法
+function show(){
+    if(flg){
+        index++;
+        console.log(index);
+        console.log(dataList.length);
+    }
+}
+
+
 
