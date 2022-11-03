@@ -69,19 +69,27 @@ nav{
     box-sizing: border-box;
     margin-bottom: 10px;
 }
-.nav_a{
+.nav_box>a{
     width: 240px;
     height: 45px;
     line-height: 45px;
     text-align: center;
     margin-left: 75px;
     text-decoration: none;
-    font-size: 24px;
     color: white;
-    background-color: #FF4229;
     border: none;
     border-radius: 5px;
     display: block;
+}
+.nav_a{
+    font-size: 24px;
+    background-color: #FF4229;
+}
+.nav_a_a{
+    background-color: #A3A3A3;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
 }
 /* 热门试用 */
 article{
@@ -451,11 +459,17 @@ article>h3{
     line-height: 20px;
     text-align: right;
     color: #A3A3A3;
+    
 }
 .shoppers_item1_sp1{
     margin-left: 140px;
-    background: url(../../public/img/zan.png) no-repeat 0px 4px;
+    background: url(../../public/img/xin.png) no-repeat 0px 4px;
 
+}
+.shoppers_item1_sp11{
+    margin-left: 140px;
+    background: url(../../public/img/xinRedh.png) no-repeat 0 4px;
+    background-size:12px 12px;
 }
 .shoppers_item1_sp2{
     margin-left: 8px;
@@ -539,23 +553,22 @@ main{
     height: 130px;
 }
 .main_list_box{
-    width: 200px;
+    width: 206px;
     height: 100px;
-    padding: 0 10px;
+    padding: 0 7px;
 }
 .main_list_bp{
     color: #474747;
     font-size: 14px;
     line-height: 22px;
-    margin-top: 3px;
+    height: 44px;
 }
 .main_list_bsp{
     font-size: 12px;
     color: #A3A3A3;
 }
 .main_list_item{
-    line-height: 45px;
-    margin-top: 5px;
+    line-height: 30px;
 }
 .main_list_itemleft{
     float: left;
@@ -571,11 +584,11 @@ main{
     width: 25px;
     height: 20px;
     line-height: 20px;
-    margin-top: 12px;
+    margin-top: 5px;
     text-align: right;
 }
 .itemright_sp1{
-    background: url(../../public/img/zan.png) no-repeat 3px 4px;
+    background: url(../../public/img/xin.png) no-repeat 3px 4px;
 }
 .itemright_sp2{
     margin-left: 4px;
@@ -588,10 +601,17 @@ main{
     text-align: center;
 }
 .playmore>a{
+    display: inline-block;
+    height: 30px;
     text-decoration: none;
-    color: #FF4229;
     padding:0 23px;
-    background: url(../../public/img/more.png) no-repeat  0px 7px;
-
+    color: #FF4229;
+}
+.load{
+    background: url(../../public/img/more.png) no-repeat  0px 12px;
+}
+.load_con{
+    
+    background: url(../../public/img/loading-icon.gif) no-repeat 0px 4px;
 }
 
