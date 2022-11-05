@@ -1,5 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     width: 100%;
     height: 100px;
     background-color: skyblue;
+}
+
+ul>li {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.public {
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    border-bottom: 1px solid #a3a3a3;
+
+}
+
+.public>h2 {
+
+    padding: 36px 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.public1 {
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.public1>a {
+    float: left;
+    display: block;
+    height: 50px;
+    width: 200px;
+    /* background-color: aqua; */
+    color: #FE5431;
+    font-size: 20px;
+    line-height: 40px;
+
+
+}
+
+.public1>a:nth-of-type(1) {
+    border-bottom: 5px solid #FE5431;
+}
+
+.public1>a:nth-of-type(2) {
+    color: #a3a3a3;
+}
+
+.all {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.all>a {
+    padding: 0 50px;
+    font-size: 18px;
+    color: #a3a3a3;
+}
+
+.all>a:nth-of-type(4) {
+    color: #474747;
+}
+
+/* 全部 */
+.box {
+    width: 100%;
+
+    background-color: #F7F7F7;
+    overflow: hidden;
+
+}
+
+.box1 {
+    margin: 0 auto;
+    width: 1008px;
+    height: 500px;
+    /* background-color: #46b8c0; */
+}
+
+.box2>li {
+    float: left;
+    width: 223px;
+    height: 280px;
+    margin: 20px 10px;
+    text-align: center;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.box3 {
+    width: 220px;
+    height: 280px;
+    border-radius: 5px;
+    border: 1px solid #b49d9d;
+    box-sizing: border-box;
+}
+
+.bread>h2 {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 5px;
+}
+
+.stage>span {
+    display: inline-block;
+    width: 50px;
+    height: 22px;
+    border: 1px solid #a3a3a3;
+    border-radius: 5px;
+    color: #a3a3a3;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.stage1 {
+    margin: 7px 0;
+}
+
+.stage1>span {
+    color: #FE5431;
+
+}
+
+.stage2 {
+    color: #a3a3a3;
+}
+
+.publish {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 20px;
+    background-color: #FE5431;
+    color: white;
+    font-size: 14px;
+    border-bottom-left-radius: 5px;
+}
+
+.load {
+    width: 100%;
+    text-align: center;
+}
+
+.load>a {
+
+    color: #e63411;
+}
+
+img {
+    width: 220px;
+    height: 130px;
 }
