@@ -1,5 +1,141 @@
-h1 {
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
     width: 100%;
-    height: 100px;
-    background-color: skyblue;
+    height: 100%;
+    background-color: white;
+}
+.center{
+    width: 100%;
+    background-color: #f7f7f7;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.center .top{
+    width: 1000px;
+    font-size: 12px; 
+     color: #999;
+     margin: 0 auto;
+     background-color:  #f7f7f7;
+}
+.center .top a{
+    line-height: 50px;
+       text-decoration: none;
+        color: #999;
+}
+.wrip{
+    width: 1000px;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+.wrip .left{
+    float: left;
+    width: 650px;
+    background-color: white;
+    border-radius: 6px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.left  p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.left .box1{
+    padding: 24px;
+    border-bottom: 1px #e0e0e0 solid;
+    overflow: hidden;
+}
+.left .box1 h1{
+    font-weight: 400;
+}
+.left .box2{
+    background-color: red;
+    margin-top: 5px;
+}
+.left .box2 span{
+    float: left;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: url(./../../img/tx.jpg) no-repeat 0px 0px;
+}
+.left .box2 .ft{
+    float: left;
+    margin-left: 5px;
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+}
+.left .box2 .ht{
+    float: right;
+    line-height: 30px;
+    font-size: 12px;
+    color: #999;
+}
+.left .box3{
+    padding: 0px 24px 0 24px;
+    overflow: hidden;
+}
+.left .box4{
+    padding: 0px 24px 0 24px;
+    overflow: hidden;
+}
+.left .box4 h4{
+    text-align: center;
+}
+.left .box4 .img{
+    margin-top: 20px;
+}
+.left .box4 .p{
+    margin-top: 20px;
+}
+.left .box4 .h4{
+    margin-top: 20px;
+}
+.left .box4 a{
+    color:#a3a3a3;
+    text-decoration: none;
+    font-size: 14px;
+}
+.center .wrip .right{
+    width: 270px;
+    float: left;
+    margin-left: 30px;
+    border: radius 6px;;
+}
+.center .wrip .right ul{
+    list-style: none;
+    overflow: hidden;
+    border: 1px solid #eee; 
+     border-radius: 6px;
+     background-color: white;
+     box-shadow: 0 1px 1px 1px #eee;
+}
+
+
+.center .wrip .right ul li{
+    float: left;
+ width: 132px;
+ height: 110px;
+  text-align: center;
+  line-height: 165px;
+  font-size: 13px;
+  color: #999;
+}
+.center .wrip .right ul .li1{
+     background: url(./../../img/xinRedo.png) no-repeat center center;
+    border-right: 1px solid #eee ;
+   
+}
+.center .wrip .right ul .li2{
+    background: url(./../../img/share_yj1.png) no-repeat center center;
+}
+.center .wrip .right ul .li1:hover{
+    color: red;
+}
+.center .wrip .right ul .li2:hover{
+    color: red;
 }

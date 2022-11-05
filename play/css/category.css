@@ -1,5 +1,185 @@
-h1 {
-    width: 100%;
-    height: 100px;
-    background-color: skyblue;
+*{
+    margin: 0;
+    padding: 0;
 }
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+/* --------发现酷玩-------- */
+.coldPlay {
+    width: 100%;
+    margin: 0 auto;
+}
+.coldPlay h1{
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 400;
+    padding: 34px 0px;
+}
+/* ------------- 最新  最热   品类 ---------------- */
+.coldPlay .newest{
+    text-align: center;
+}
+.coldPlay .newest a{
+    display: inline-block;
+    padding-bottom: 12px;
+    width: 165px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #999;
+}
+.coldPlay .newest .newEst{
+    color: #fe5431;
+    border-bottom: 4px #fe5431 solid;
+}
+/* -----------生活------------ */
+.life{
+    width: 100%;
+    background-color: #f7f7f7;
+    padding-top: 30px;
+  
+  
+
+}
+ .life .wrip{
+    width: 1000px;
+    min-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 20px;
+    border: 1px solid #ebecec;
+    overflow: hidden; 
+     padding-bottom: 30px;
+}
+.wrip h4{
+    border-left: 6px solid red;
+    padding-left: 20px;
+    font-weight: 400;
+     line-height: 25px;
+}
+.wrip ul{
+    list-style: none;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.wrip ul li{
+    float: left;
+    width: 100px;
+    height: 135px;
+    padding-left: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.wrip ul li p{
+    margin-top: 10px;
+}
+.wrip ul li:hover p{
+    color: red;
+}
+.wrip ul li a{
+    text-decoration: none;
+    color: #999;
+    font-size: 14px;
+}
+.wrip .size{
+    width: 100%;
+    margin-top: 10px;
+    border-top: 1px dashed #e0e0e0;
+    padding-top: 10px;
+}
+.wrip .size a{
+    color: #999;
+}
+.wrip .size a p {
+    width: 100px;
+    float: left;
+    padding-left: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+.wrip .size a p:hover{
+    color: red;
+}
+
+/* ---------个人护理------------ */
+/* .nurse{
+    width: 100%;
+    background-color: #f7f7f7;
+    padding-top: 30px;
+
+}
+.nurse .wrip1{
+    width: 1000px;
+    min-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 20px;
+    border: 1px solid #ebecec;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.nurse h4{
+    border-left: 6px solid red;
+    padding-left: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.nurse ul{
+    list-style: none;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.nurse ul li{
+    float: left;
+    width: 120px;
+    height: 135px;
+    padding-left: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.nurse ul li p{
+    margin-top: 10px;
+}
+.nurse ul li a{
+    text-decoration: none;
+    color: #999;
+    font-size: 14px;
+}
+.nurse ul li:hover p{
+    color: red;
+}
+
+.nurse .size{
+    width: 100%;
+    margin-top: 10px;
+    border-top: 1px dashed #e0e0e0;
+    padding-top: 10px;
+}
+.nurse .size a{
+    color: #999;
+}
+.nurse .size a p {
+    width: 100px;
+    float: left;
+    padding-left: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+.nurse .size a p:hover{
+    color: red;
+} */
+
+
