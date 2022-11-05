@@ -31,7 +31,7 @@ body{
     text-decoration: none;
     color: #999;
 }
-.coldPlay .newest .newEst{
+.coldPlay .newest a:nth-of-type(3){
     color: #fe5431;
     border-bottom: 4px #fe5431 solid;
 }

@@ -233,6 +233,22 @@ margin-bottom: 30px;
     position: relative;
     box-sizing: border-box;
 }
+
+.hot .wrippp ul li:hover img{
+    animation: animation 2s linear reverse infinite;
+  opacity: 1;
+}
+@keyframes animation{
+   0%{
+      
+   }
+   50%{
+      opacity: .5;
+   }
+   100%{
+      opacity: 1;
+   }
+}
 .hot .wrippp ul li img{
     border-radius: 6px;
 }

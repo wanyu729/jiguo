@@ -64,6 +64,7 @@ body{
     border-radius: 6px;
   
 }
+
 .box li:hover img{
       animation: animation 2s linear reverse infinite;
     opacity: 1;
@@ -81,6 +82,8 @@ body{
 }
 .box li img{
     border-radius: 6px 6px 0 0;
+    width: 220px;
+    height: 130px;
 }
 
  .box li p{
@@ -106,7 +109,7 @@ body{
     float: right;
     margin-right: 15px;
  }
- .box li .tip .xin{
+ .box li .tip .right #xin{
     display: block;
       width: 20px;
     float: left;
@@ -115,7 +118,7 @@ body{
          background: url(./../../img/xin.png) no-repeat 4px 5px;
 
  }
- .box li .tip .look{
+ .box li .tip .right #look{
     float: left;
     display: block;
     width: 20px;
