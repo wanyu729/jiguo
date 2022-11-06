@@ -79,11 +79,6 @@ a_.appendChild(span_)
 }
 }
 
-var sss=document.getElementById('xin')
-console.log(sss)
-
-
-
 var btn_=document.getElementsByClassName('btn')[0]
 console.log(btn_)
 btn_.onclick=function(){

@@ -61,33 +61,12 @@ body{
     margin: 0px 14px 20px 14px;
     float: left;
     border: 1px solid #e6e9e9;
-    background-color: white;
+   background-color: white;
     border-radius: 6px;
-    position: relative;
-    z-index: 999;
+     position: relative;
+   
 }
-.box .ss1{
-    width: 210px;
-    height: 235px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    border: 2px solid #e6e9e9;
-    margin-left: 4px;
-    border-radius: 6px;
-    z-index: 2;
-}
-.box .ss2{
-    width: 200px;
-    height: 240px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    border: 2px solid #e6e9e9;
-    margin-left: 9px;
-    border-radius: 6px;
-    z-index: 1;
-}
+
 .box li:hover img{
       animation: animation 2s linear reverse infinite;
     opacity: 1;
@@ -104,6 +83,8 @@ body{
      }
 }
 .box li img{
+    width: 220px;
+    height: 130px;
     border-radius: 6px 6px 0 0;
 }
 
@@ -117,35 +98,42 @@ body{
     font-size: 13px;
     margin-left: 10px;
  }
- .box li .tip{
-    width: 100%;
-    margin-top: 10px;
-    float: left;
- }
- .box li .tip .left{
-    float: left;
-    color: red;
- }
- .box li .tip .right{
+
+ .box li .right{
     float: right;
     margin-right: 15px;
  }
- .box li .tip .xin{
+ .box li .right .xin{
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
     display: block;
       width: 20px;
     float: left;
     box-sizing: border-box;
     padding-left: 18px;
-         background: url(./../../img/xin.png) no-repeat 4px 5px;
+    background: url(./../../img/xin.png) no-repeat 4px 5px;
 
  }
- .box li .tip .look{
+ .box li .right .look{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
     float: left;
     display: block;
     width: 20px;
     box-sizing: border-box;
     padding-left: 18px;
     background: url(./../../img/reply.png) no-repeat 4px 5px;
+ }
+ #Img{
+      width: 220px;
+   height: 20px;
+    background: url(./../../img/listbg.jpg) no-repeat left bottom;
+    background-size: 221px 19px;
+    position: absolute;
+    bottom: -14px;
+    left: 0px;
  }
 .center .more_btn{
     text-align: center;
