@@ -188,11 +188,17 @@ ul>li {
 }
 
 .load {
-    width: 700px;
+
+    width: 100%;
     text-align: center;
 }
 
 .load>a {
 
     color: #e63411;
+}
+
+img {
+    width: 700px;
+    height: 412px;
 }

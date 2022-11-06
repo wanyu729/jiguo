@@ -188,7 +188,7 @@ ul>li {
 }
 
 .load {
-    width: 700px;
+    width: 100%;
     text-align: center;
 }
 
@@ -211,4 +211,9 @@ ul>li {
 
 .distance>li>a>.click1 {
     color: #a3a3a3;
+}
+
+.centerleft>img {
+    width: 700px;
+    height: 412px;
 }
