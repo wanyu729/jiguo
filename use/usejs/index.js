@@ -34,7 +34,7 @@ function show() {
         // 创建li里面的a标签
         var a = document.createElement("a");
         li.appendChild(a);
-        a.href = "./detail.html";
+        a.href = "../play/index_2.html";
         // 创建li里面的span标签
         var span = document.createElement("span");
         span.innerHTML = item.info_ty;

@@ -202,3 +202,13 @@ img {
     width: 700px;
     height: 412px;
 }
+
+.tiyanImg>img {
+    width: 300px;
+    height: 183px;
+}
+
+.myCode>img {
+    width: 300px;
+    height: 133px;
+}

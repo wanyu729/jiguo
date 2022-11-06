@@ -1,59 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        *{
+        * {
             padding: 0;
             margin: 0;
         }
-        header{
+
+        header {
             width: 100%;
             height: 75px;
             border: 1px solid #f2f0f0;
-            box-shadow: 1px 1px 1px 2px #f9f6f6;  
+            box-shadow: 1px 1px 1px 2px #f9f6f6;
             box-sizing: border-box;
         }
-        header>.logo{
+
+        header>.logo {
             width: 150px;
             height: 75px;
             margin: 0 5px 0 170px;
             float: left;
         }
-        header>.logo>a{
+
+        header>.logo>a {
             display: inline-block;
             width: 130px;
             height: 75px;
             margin: 10px;
         }
-        .header_list{
+
+        .header_list {
             width: 600px;
             height: 60px;
             line-height: 60px;
             margin-top: 15px;
             float: left;
         }
-        .header_list>li{
+
+        .header_list>li {
             float: left;
             height: 60px;
             line-height: 60px;
             margin-left: 50px;
             list-style: none;
         }
-        .header_list>li>a{
+
+        .header_list>li>a {
             text-decoration: none;
             font-size: 20px;
             color: #333333;
         }
-        .header_list>li>.red_a{
+
+        .header_list>li>.red_a {
             color: red;
         }
-        .header_list>li>a:hover{
+
+        .header_list>li>a:hover {
             color: red;
         }
-        .header_right{
+
+        .header_right {
             width: 200px;
             height: 32px;
             line-height: 32px;
@@ -61,13 +71,15 @@
             margin-left: 140px;
             margin-top: 22px;
         }
-        .search{
+
+        .search {
             width: 32px;
             height: 32px;
             float: left;
             background: url(./search.png) no-repeat 3px 3px;
         }
-        .btn{
+
+        .btn {
             width: 50px;
             height: 30px;
             line-height: 30px;
@@ -79,29 +91,38 @@
             color: red;
             border-radius: 5px;
         }
-        .btn:hover{
+
+        .btn:hover {
             background-color: orangered;
             color: white;
         }
     </style>
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
             <a href=""><img src="./logonew.png" alt="" width="130px" height="55px"></a>
         </div>
         <ul class="header_list">
+            <!-- ../index/index.html -->
             <li><a href="" class="red_a">首页</a></li>
-            <li><a href="">酷玩</a></li>
-            <li><a href="">导购</a></li>
-            <li><a href="">试用</a></li>
-            <li><a href="">报告</a></li>
+            <!-- ../play/index.html -->
+            <li><a href="../play/index.html">酷玩</a></li>
+            <!-- ../guid/index.html -->
+            <li><a href="../guid/index.html">导购</a></li>
+            <!-- ../use/index.html -->
+            <li><a href="../use/index.html">试用</a></li>
+            <!-- ../report/index.html -->
+            <li><a href="../report/index.html">报告</a></li>
         </ul>
         <div class="header_right">
             <a href="" class="search"></a>
-            <a href="" class="btn">注册</a>
+            <!-- ../regist/regist.html -->
+            <a href="../regist/regist.html" class="btn">注册</a>
         </div>
     </header>
 </body>
+
 </html>
